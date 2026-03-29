@@ -6,3 +6,12 @@
   </p>
 </div>
 
+<div style="text-align: center;">
+  <img src="./loss_curve.png" style="width: 43%;" />
+  <img src="./entropy_curve.png" style="width: 43%;" />
+  <p style="margin-top: 8px; font-size: 14px; font-weight: normal;">
+    <b>Figure 3:</b> .
+  </p>
+</div>
+
+
