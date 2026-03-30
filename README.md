@@ -28,7 +28,7 @@
   <img src="entropy_curve.png" style="width: 43%;" />
   <p style="margin-top: 8px; font-size: 14px; font-weight: normal;">
     <b>Figure 4:</b> <b>Left:</b> mean training loss across iterations for the expected perturbation samples. The monotonic increase indicates that <b> the learned policy produces progressively stronger perturbations, suggesting stable optimization</b>.
-    <b>Right:</b> mean differential entropy of the learned Dirichlet policy $D(\alpha^{(t)})$. The entropy decreases smoothly (becoming more negative), indicating <b> increasingly confident policies </b>, while the growing variance across samples reveals substantial divergence, highlighting the importance of sample-level policies.
+    <b>Right:</b> mean differential entropy of the learned Dirichlet policy. The entropy decreases smoothly (becoming more negative), indicating <b> increasingly confident policies </b>, while the growing variance across samples reveals substantial divergence, highlighting the importance of sample-level policies.
   </p>
 </div>
 
