@@ -23,7 +23,7 @@
   </p>
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: left;">
   <img src="cos_sim_heatmap.png" style="width: 32%;" />
   <img src="loss_curve.png" style="width: 32%;" />
   <img src="entropy_curve.png" style="width: 32%;" />
