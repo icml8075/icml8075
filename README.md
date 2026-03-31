@@ -30,7 +30,7 @@
   <p style="margin-top: 8px; font-size: 20px; font-weight: normal;">
     <b>Figure 4:</b> <b>Left:</b> Cosine similarity of policy update directions across 9 consecutive iterations. Each entry measures the cosine similarity between directions of Dirichlet policy updates at each step. Consistently positive similarity (≈0.6–0.7) indicates stable optimization directions across iterations. 
     <b>Middle:</b> Mean training loss across iterations for the expected perturbation samples. The monotonic increase indicates that <b> the learned policy produces progressively stronger perturbations, suggesting stable optimization</b>.
-    <b>Right:</b> Mean differential entropy of the learned Dirichlet policy. As a differential entropy of a continuous distribution, it could be negative when the distribution is highly concentrated. The entropy decreases smoothly (becoming more negative), indicating <b> increasingly confident policies </b>, while the growing variance across samples reveals substantial divergence, highlighting the importance of sample-level policies.
+    <b>Right:</b> Mean differential entropy of the learned Dirichlet policy. As a differential entropy of a continuous distribution, it could be negative when the distribution is highly concentrated. The entropy decreases smoothly (becoming more negative), indicating <b> increasingly confident policies </b>, while the growing variance across samples reveals substantial divergence, highlighting the importance of our sample-level policy design.
   </p>
 </div>
 
